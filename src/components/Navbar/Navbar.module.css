@@ -1,0 +1,52 @@
+.bxs {
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+
+.navbardiv {
+  height: 80px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+  padding: 0 20px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.navbardiv a {
+  text-decoration: none;
+  color: rgb(99, 99, 99);
+  margin: 0 14px;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.navbardiv a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #3a3aff;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+
+.navbardiv a:hover {
+  color: #3a3aff;
+}
+
+.navbardiv a:hover::after {
+  width: 100%;
+}
+
+.navbardiv h4 {
+  font-size: 18px;
+  color: rgb(47, 47, 47);
+  margin-left: 20px;
+  font-weight: bold;
+}

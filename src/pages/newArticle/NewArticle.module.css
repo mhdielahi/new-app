@@ -1,0 +1,34 @@
+h1 {
+  font-size: 22px;
+  text-align: end;
+  margin-top: 32px;
+  font-weight: 600;
+  color: #222;
+}
+
+.send {
+  direction: rtl;
+}
+
+.send button {
+  color: #fff;
+  background-color: #3442ff;
+  width: 100px;
+  height: 42px;
+  border-radius: 12px;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.send button:hover {
+  background-color: #1f2cff;
+  transform: translateY(-1px);
+}
+
+.send button:active {
+  transform: translateY(0);
+}

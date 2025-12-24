@@ -1,0 +1,52 @@
+.h3 {
+  text-align: right;
+  margin-top: 24px;
+  font-weight: 600;
+  color: #222;
+}
+
+/* ردیف مقالات */
+.ArticleRaw {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* کارت مقاله */
+.ArticleRaw a {
+  width: 23%;
+  background-color: #fff;
+  border-radius: 14px;
+  padding: 14px;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* هاور نرم */
+.ArticleRaw a:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+/* کلیک */
+.ArticleRaw a:active {
+  transform: translateY(-2px);
+}
+
+/* 📱 ریسپانسیو */
+@media (max-width: 1024px) {
+  .ArticleRaw a {
+    width: 48%; /* 2 ستون */
+  }
+}
+
+@media (max-width: 600px) {
+  .ArticleRaw a {
+    width: 100%; /* 1 ستون */
+  }
+}

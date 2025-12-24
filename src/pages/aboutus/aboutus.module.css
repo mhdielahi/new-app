@@ -1,0 +1,102 @@
+.aboutdiv img {
+  width: 50%;
+}
+.aboutdiv2 {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+.aboutdiv {
+  min-height: 100vh;
+  background: radial-gradient(
+      circle at top right,
+      rgba(99, 102, 241, 0.15),
+      transparent 40%
+    ),
+    linear-gradient(180deg, #f8fafc, #eef2ff);
+}
+
+/* کارت اصلی */
+.aboutdiv2 {
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 48px 40px;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(14px);
+  border-radius: 28px;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.12);
+  text-align: center;
+  animation: fadeUp 0.8s ease forwards;
+}
+
+/* تیتر */
+.aboutdiv2 h2 {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 24px;
+  background: linear-gradient(90deg, #4f46e5, #6366f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* متن توضیح */
+.aboutdiv2 h4 {
+  direction: rtl;
+  font-size: 16px;
+  line-height: 2;
+  color: #374151;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+/* سوال */
+.aboutdiv2 p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 24px;
+}
+
+/* تصویر نقشه */
+.aboutdiv2 img {
+  width: 100%;
+  max-width: 520px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(79, 70, 229, 0.25);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* افکت هاور */
+.aboutdiv2 img:hover {
+  transform: scale(1.05) rotate(-1deg);
+  box-shadow: 0 30px 70px rgba(79, 70, 229, 0.4);
+}
+
+/* انیمیشن ورود */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 📱 ریسپانسیو */
+@media (max-width: 768px) {
+  .aboutdiv2 {
+    padding: 32px 24px;
+    margin: 50px 16px;
+  }
+
+  .aboutdiv2 h2 {
+    font-size: 28px;
+  }
+
+  .aboutdiv2 h4 {
+    font-size: 15px;
+  }
+}

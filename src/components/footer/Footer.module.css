@@ -1,0 +1,66 @@
+.footer {
+  background-color: #222;
+  color: white;
+  padding: 50px 20px 20px 20px;
+  direction: rtl; /* اضافه شده برای راست‌چین */
+  text-align: right; /* راست‌چین کردن متن */
+  margin-top: 20px;
+}
+
+.footerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footerContainer div {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footerAbout h2,
+.footerLinks h3,
+.footerContact h3 {
+  margin-bottom: 15px;
+  color: #3a3aff;
+}
+
+.footerAbout p,
+.footerLinks li,
+.footerContact p {
+  color: #ccc;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footerLinks ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footerLinks ul li a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+.footerLinks ul li a:hover {
+  color: #3a3aff;
+}
+
+.footerBottom {
+  text-align: center;
+  margin-top: 30px;
+  border-top: 1px solid #444;
+  padding-top: 15px;
+  font-size: 14px;
+  color: #888;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footerContainer {
+    flex-direction: column;
+    text-align: center;
+  }
+}

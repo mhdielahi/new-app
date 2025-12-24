@@ -1,0 +1,87 @@
+{
+  "article": [
+    {
+      "id": "1",
+      "imageurl": "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3210575/react-icon-md.png",
+      "title": "mamad1",
+      "readingtime": "5",
+      "writer": "elahi",
+      "date": "99/99/99",
+      "matn": ""
+    },
+    {
+      "id": "2",
+      "imageurl": "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3210575/react-icon-md.png",
+      "title": "mamad2",
+      "readingtime": 52,
+      "writer": "elahi",
+      "date": "99/99/99"
+    },
+    {
+      "id": "3",
+      "imageurl": "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3210575/react-icon-md.png",
+      "title": "mamad3",
+      "readingtime": "51",
+      "writer": "elahi",
+      "date": "99/99/99"
+    },
+    {
+      "id": "4",
+      "imageurl": "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3210575/react-icon-md.png",
+      "title": "mamad4",
+      "readingtime": 32,
+      "writer": "elahi",
+      "date": "99/99/99"
+    },
+    {
+      "id": "5",
+      "imageurl": "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3210575/react-icon-md.png",
+      "title": "mamad5",
+      "readingtime": 542,
+      "writer": "elahi",
+      "date": "99/99/99"
+    },
+    {
+      "id": "6",
+      "imageurl": "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3210575/react-icon-md.png",
+      "title": "mamad6",
+      "readingtime": 531,
+      "writer": "elahi",
+      "date": "99/99/99"
+    },
+    {
+      "id": "7",
+      "imageurl": "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3210575/react-icon-md.png",
+      "title": "mamad7",
+      "readingtime": 322,
+      "writer": "elahi",
+      "date": "99/99/99"
+    },
+    {
+      "id": "8",
+      "imageurl": "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3210575/react-icon-md.png",
+      "title": "mamad8",
+      "readingtime": 312,
+      "writer": "elahi",
+      "date": "99/99/99"
+    },
+    {
+      "id": "9",
+      "imageurl": "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3210575/react-icon-md.png",
+      "title": "ممد بی وفا",
+      "readingtime": "55",
+      "writer": "ممد با وفا",
+      "date": "2024-11-20",
+      "matn": "تو که بی وفا نبودی رفیق نیمه راه نبودی تو گل یاس بهاری دل من کردی هوایی"
+    },
+    {
+      "id": 9,
+      "imageurl": "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3210575/react-icon-md.png",
+      "title": "ali",
+      "readingtime": "22",
+      "writer": "ali jon",
+      "date": "2025-12-10",
+      "matn": "aliiiiiiii"
+    }
+  ]
+}
